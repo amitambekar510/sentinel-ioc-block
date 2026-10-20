@@ -1,0 +1,3 @@
+# Sentinel IOC Block 2.0 — AI-guided planning
+
+Ask one question at a time, beginning: **Which firewall or security platform do you use (Fortinet, Palo Alto, Microsoft, other, or observation-only)?** Then ask about existing SIEM and threat-intelligence tooling, authorized scope, feed provenance, approval owners, business exceptions, source freshness, operational impact, rollback and audit requirements. Never request credentials or confidential IP inventories. Provide an environment-specific **review-only** plan, with explicit assumptions, human approvals, monitoring, rollback and evidence. Do not deploy or enable blocking. A URL alone does not force an AI assistant to read these instructions; users must request that the assistant read AGENTS.md and AI_INSTRUCTIONS.md.

@@ -1,4 +1,42 @@
-# Malicious-IOC Auto-Block — TOR / Malicious IP Feed Ingestion for Perimeter Firewall
+<div align="center">
+
+<img src="assets/ioc-hero.svg" width="100%" alt="Sentinel IOC Block 2.0">
+
+# Sentinel IOC Block 2.0
+
+**AI-guided threat intelligence planning • observation-first SOC governance • audit evidence**
+
+<img src="assets/ioc-workflow.gif" width="100%" alt="Animated illustrative IOC review workflow">
+
+*Illustrative workflow, not a live firewall demonstration.*
+
+<img src="assets/ioc-architecture.svg" width="100%" alt="Conceptual IOC review and governance architecture">
+
+</div>
+
+## AI-ready infrastructure questionnaire
+
+Copy into a compatible AI assistant:
+
+```text
+Read AGENTS.md and AI_INSTRUCTIONS.md in this GitHub repository.
+Ask one question at a time, starting with which firewall or security
+platform I use. Then ask about my existing SIEM, intelligence sources,
+scope, approvals, exclusions and operational requirements. Produce a
+tailored observation-first plan with review, rollback and audit evidence.
+Do not request credentials or claim any changes have been deployed.
+```
+
+A pasted GitHub URL alone cannot guarantee every AI platform automatically follows instructions. This project remains a **proposal and guided design**, not a live auto-blocking product.
+
+See [the 12-reference compliance applicability matrix](docs/compliance-applicability.md). Regulatory applicability is conditional; no certification or mandatory blanket IOC blocking is claimed.
+
+**Risk note:** Tor exit-node status or inclusion in a public list is not proof of maliciousness. Require provenance, false-positive review, business exclusions, authorization and rollback before considering enforcement.
+
+---
+
+## Original project proposal
+
 
 ![Status](https://img.shields.io/badge/status-proposal%2FPoC-blue)
 ![Category](https://img.shields.io/badge/category-SOC%20%7C%20Threat%20Intel-orange)
